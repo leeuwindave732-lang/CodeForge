@@ -1,4 +1,5 @@
 import { ArrowRight, Code2, Zap, Layout, GitBranch, Star, Database, Palette, Cpu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -6,22 +7,22 @@ export default function Index() {
       {/* Header Navigation */}
       <header className="sticky top-0 z-50 bg-white border-b border-border">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2">
             <div className="w-8 h-8 bg-sage-500 rounded-lg flex items-center justify-center">
               <Code2 className="w-5 h-5 text-white" />
             </div>
             <span className="text-lg font-serif font-bold">DevMastery</span>
-          </div>
+          </Link>
           <div className="hidden md:flex items-center gap-8">
             <a href="#benefits" className="text-sm font-medium hover:text-sage-600 transition">
               Benefits
             </a>
-            <a href="#specs" className="text-sm font-medium hover:text-sage-600 transition">
-              Specifications
-            </a>
-            <a href="#howto" className="text-sm font-medium hover:text-sage-600 transition">
-              How-to
-            </a>
+            <Link to="/languages" className="text-sm font-medium hover:text-sage-600 transition">
+              Languages
+            </Link>
+            <Link to="/tips" className="text-sm font-medium hover:text-sage-600 transition">
+              Tips & Tricks
+            </Link>
             <a href="#contact" className="text-sm font-medium hover:text-sage-600 transition">
               Contact Us
             </a>
