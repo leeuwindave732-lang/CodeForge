@@ -87,7 +87,7 @@
     --border: 220 15% 25%;
     --input: 220 15% 28%;
     --ring: 112 22% 60%;
-    
+
     --sidebar-background: 220 20% 10%;
     --sidebar-foreground: 0 0% 95%;
     --sidebar-primary: 112 22% 60%;
@@ -108,7 +108,12 @@
     @apply bg-background text-foreground font-sans;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-serif;
   }
 
