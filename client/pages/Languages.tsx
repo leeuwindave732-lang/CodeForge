@@ -298,7 +298,7 @@ export default function Languages() {
           </div>
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400">
-              © 2025 DevMastery. All rights reserved.
+              © 2025 CodeForge by LeeuwinDev. Master Web Development. All rights reserved.
             </p>
           </div>
         </div>
