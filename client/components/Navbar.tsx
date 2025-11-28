@@ -10,7 +10,7 @@ export default function Navbar() {
     { label: "Languages", href: "/languages" },
     { label: "Tips & Tricks", href: "/tips" },
     { label: "Techniques", href: "/techniques" },
-    { label: "About", href: "/About" },
+    { label: "About", href: "/#About" },
   ];
 
   const isActive = (href: string) => {
