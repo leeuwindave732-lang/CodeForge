@@ -112,7 +112,7 @@ export default function Index() {
 
         <div className="bg-gradient-to-br from-sage-50 to-sage-100 rounded-2xl overflow-hidden h-96 md:h-[500px] flex flex-col items-center justify-center relative border border-sage-200">
           <img
-            src="https://images.unsplash.com/photo-1633356122544-f134324ef6db?auto=format&fit=crop&w=1400&h=600"
+            src="https://images.unsplash.com/photo-1753715613434-9c7cb58876b9?fm=jpg&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&ixlib=rb-4.1.0&q=60&w=3000"
             alt="Learning platform"
             className="w-full h-full object-cover"
           />
