@@ -1,5 +1,5 @@
-import { ArrowRight, Code2, Zap, Star, TrendingUp } from "lucide-react";
-import { Link } from "react-router-dom";
+import { ArrowRight, Zap, Star } from "lucide-react";
+import Navbar from "@/components/Navbar";
 
 export default function Languages() {
   const languages = [
