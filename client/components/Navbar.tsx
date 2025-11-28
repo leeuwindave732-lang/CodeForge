@@ -26,7 +26,9 @@ export default function Navbar() {
           <div className="w-8 h-8 bg-sage-500 rounded-lg flex items-center justify-center">
             <Code2 className="w-5 h-5 text-white" />
           </div>
-          <span className="text-lg font-serif font-bold hidden sm:inline">CodeForge</span>
+          <span className="text-lg font-serif font-bold hidden sm:inline">
+            CodeForge
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
