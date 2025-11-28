@@ -1,4 +1,4 @@
-import { ArrowRight, Layers, GitBranch, TestTube, Zap } from "lucide-react";
+import { ArrowRight, Layers, GitBranch, TestTube, Zap, Code2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 
