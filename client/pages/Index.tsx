@@ -466,7 +466,7 @@ export default function Index() {
           </div>
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
-              © 2025 CodeForge. Master Web Development. All rights reserved.
+              © 2025 CodeForge by LeeuwinDev. Master Web Development. All rights reserved.
             </p>
             <div className="flex gap-6">
               <a
