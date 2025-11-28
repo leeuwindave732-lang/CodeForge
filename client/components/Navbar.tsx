@@ -7,10 +7,10 @@ export default function Navbar() {
   const location = useLocation();
 
   const navLinks = [
+    { label: "About", href: "/#About" },
     { label: "Languages", href: "/languages" },
     { label: "Tips & Tricks", href: "/tips" },
     { label: "Techniques", href: "/techniques" },
-    { label: "About", href: "/#About" },
   ];
 
   const isActive = (href: string) => {
